@@ -7,5 +7,6 @@ There are 2 files:
 # Folder
 The html folder is a volume linked to /var/www/html folder of the apache web server configured in container
 # Install
-To install the containers just type: docker-compose up -d
+To install the containers just type: *** docker-compose up -d ***
+
 At this moment docker will install images and will create the volumes
