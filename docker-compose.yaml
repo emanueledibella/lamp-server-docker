@@ -13,6 +13,9 @@ services:
     image: mysql:8.0.19
     restart: always
     environment:
+      MYSQL_ALLOR_EMPTY_PASSWORD: "no"
+      MYSQL_USER: 'emanuele'
+      MYSQL_PASSWORD: 'password'
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - mysql-data:/var/lib/mysql
